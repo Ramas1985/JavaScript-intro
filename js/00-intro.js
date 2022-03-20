@@ -12,3 +12,6 @@
 6) oop- objektinis programavimas;
 
 */
+
+console.log('ka tu');
+console.log('man yra', 99, 'metai');
