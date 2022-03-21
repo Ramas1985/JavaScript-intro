@@ -15,5 +15,5 @@ console.log(last)
 
 const dictionary = [`labas`, `rytas`, `sakau`, `tau`];
 
-const paskutinisZodis = dictionary[dictionary.lenght - 1];
+const paskutinisZodis = dictionary[dictionary.length - 1];
 console.log(paskutinisZodis);
