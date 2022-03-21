@@ -1,4 +1,13 @@
-/* Array */
+/* Array 
+
+   array metodai:
+   - .push()      - prideti i gala nauja reiksme
+   - .unshift()   - prideti i prieki nauja reiksme
+   - .pop()       - isimti is galo (paskutini)
+   - .shift()     - isimti is priekio (pirmaji)
+   - .reverse()   - sukeicia reiksmes
+   - .concat()    - sujungia reiksmes (... - modernesnis)
+*/
 
 const marks = [10, 2, 8, 4, 6, 2, 7, 8];
 const size = marks.length;
@@ -17,3 +26,39 @@ const dictionary = [`labas`, `rytas`, `sakau`, `tau`];
 
 const paskutinisZodis = dictionary[dictionary.length - 1];
 console.log(paskutinisZodis);
+
+console.log(`--------------------------`);
+
+const abc = [`b`, `c`];
+console.log(abc);
+
+abc.push(`d`);
+console.log(abc);
+
+abc.shift();
+console.log(abc);
+
+abc.pop();
+console.log(abc);
+
+abc.unshift(`a`);
+console.log(abc);
+
+console.log(abc.reverse());
+console.log(abc);
+
+console.log(`-----------------------------`);
+
+const a1 = [`a`, `b`];
+const a2 = [`c`, `d`];
+const a12 = a1.concat(a2);
+console.log(a1);
+console.log(a2);
+console.log(a12);
+
+const modern1 = [...a1, ...a2];
+console.log(modern1);
+
+const modern2 = [...a2, ...a1];
+console.log(modern2);
+
