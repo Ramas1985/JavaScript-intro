@@ -21,3 +21,15 @@ if (4 < 2) {
     s2 = 'nedaugiau';
 }
 console.log(s2)
+
+/*
+Nestintas ternary
+*/
+
+const color = 'blue';
+const x1 = color === 'blue' ? 'Melyna' : 'Nezinoma spalva';
+console.log(x1);
+
+const spalva = 'red';
+const x2 = spalva === 'blue' ? 'Melyna' : spalva === 'red' ? 'raudona' : 'Nezinoma spalva';
+console.log(x2);
