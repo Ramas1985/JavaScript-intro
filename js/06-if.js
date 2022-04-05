@@ -103,3 +103,24 @@ if (parosMetas === 'rytas') {
         }
     }
 }
+
+
+// Loginiai operatoriai- || (arba- or);  && (ir- and)
+
+const day = 4;
+
+if (day === 1 || day === 2 || day === 3 || day === 4 || day === 5 ) {
+    console.log('Darbo diena');
+} else if (day === 6 || day === 7) {
+    console.log('Savaitgalis');
+} else {
+    console.log('Nezinoma diena');
+}
+
+if (day >= 0 && day < 6) {
+    console.log('Darbo diena');
+} else if (day >= 6 && day < 7) {
+    console.log('Savaitgalis');
+} else {
+    console.log('Nezinoma diena');
+}

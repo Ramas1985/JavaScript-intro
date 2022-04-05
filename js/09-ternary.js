@@ -6,9 +6,9 @@ klausimas? teigiama : neigiama
 */
 
 const arLyja = true;
-
 const sketis = arLyja ? 'pasiimk' : 'nereikia';          // pasiimk /nereikia
 console.log(sketis);
+
 
 const s1 = 4 > 2 ? 'daugiau' : 'nedaugiau';
 console.log(s1);
@@ -22,6 +22,7 @@ if (4 < 2) {
 }
 console.log(s2)
 
+
 /*
 Nestintas ternary
 */
@@ -30,9 +31,11 @@ const color = 'blue';
 const x1 = color === 'blue' ? 'Melyna' : 'Nezinoma spalva';
 console.log(x1);
 
+
 const spalva = 'red';
 const x2 = spalva === 'blue' ? 'Melyna' : spalva === 'red' ? 'raudona' : 'Nezinoma spalva';
 console.log(x2);
+
 
 const color = 'blue';
 const light = true;
