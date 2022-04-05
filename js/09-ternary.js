@@ -33,3 +33,14 @@ console.log(x1);
 const spalva = 'red';
 const x2 = spalva === 'blue' ? 'Melyna' : spalva === 'red' ? 'raudona' : 'Nezinoma spalva';
 console.log(x2);
+
+const color = 'blue';
+const light = true;
+const x3 = color === 'blue'
+              ? light
+                ? 'Sviesiai melyna'
+                : 'Tamsiai melyna'
+              : color === 'red'
+                ? 'Raudona'
+                : 'Nezinoma spalva';
+console.log(x3);
