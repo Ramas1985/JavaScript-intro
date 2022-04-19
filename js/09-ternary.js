@@ -15,7 +15,7 @@ console.log(s1);
 
 
 let s2 = '';
-if (4 < 2) {
+if (4 < 2) {ß
     s2 = 'daugiau';
 } else {
     s2 = 'nedaugiau';
@@ -27,8 +27,8 @@ console.log(s2)
 Nestintas ternary
 */
 
-const color = 'blue';
-const x1 = color === 'blue' ? 'Melyna' : 'Nezinoma spalva';
+const color1 = 'blue';
+const x1 = color1 === 'blue' ? 'Melyna' : 'Nezinoma spalva';
 console.log(x1);
 
 
@@ -46,4 +46,4 @@ const x3 = color === 'blue'
               : color === 'red'
                 ? 'Raudona'
                 : 'Nezinoma spalva';
-console.log(x3);
+console.log(x3);ßßßßß
