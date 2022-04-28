@@ -64,7 +64,7 @@ UZDUOTIS:
 - gaunam uzsakymu kieki per diena (vienetais)
 - gauname vienos porcijos dydi (litrais)
 -vienos karves duodamo pieno kiekis per diena (litrais)
--reikia rasti: kiek karviu reikia tureti, norint ivigdyti visus uzsakymus?
+-reikia rasti: kiek karviu reikia tureti, norint ivygdyti visus uzsakymus?
 */
 
 function milk(uzsakymai, porcija, pienoIsKarves) {
@@ -126,4 +126,27 @@ console.log(milk(100, 0.5, 9), '->', 6);
 
 
 
+
+const people = [
+    { id: '1', name: 'John Smith', age: 20, hasCar: true },
+    { id: '2', name: 'Ann Smith', age: 24, hasCar: false },
+    { id: '3', name: 'Tom Jones', age: 31, hasCar: true },
+    { id: '4', name: 'Rose Peterson', age: 17, hasCar: false },
+    { id: '5', name: 'Alex John', age: 25, hasCar: true },
+    { id: '6', name: 'Ronald Jones', age: 63, hasCar: true },
+    { id: '7', name: 'Elton Smith', age: 16, hasCar: true },
+    { id: '8', name: 'Simon Peterson', age: 30, hasCar: false },
+    { id: '9', name: 'Daniel Cane', age: 51, hasCar: true },
+  ];
+
+  let filterCarOwners = people.filter(big => big.hasCar !== false);
+  
+  console.log(filterCarOwners);
+
+  let filterAdults = people.filter(big => big.age >= 18);
+
+  console.log(filterAdults);
+
+
+ 
 
